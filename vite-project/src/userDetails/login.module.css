@@ -1,29 +1,91 @@
+.loginh1{
+    margin: auto;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 45%;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
 .login{
     width: 30%;
     height: auto;
     margin: auto;
-   
+  
 }
-.fgaLogo{
+.login>div{
     width: 100%;
     height: 44px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.flogo{
+    display: flex;
+    border: 1px solid #1877F2;
+    
+}
+.fimg{
+    width: 6%;
+margin-top:7px;
+margin-left: 35px;
+   
+}
+.continueWF{
+    display: inline block;
+    margin-left: -350px;
+    margin-top: 10px;
+    color: #1877F2;
+    font-size: 13px;
+}
+.glogo{
     display: flex;
     
-    align-items: center;
-    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
 }
-.fgaLogo>img{
-    width: 6%;
-    border-radius: 50%;
-    margin-left: 8%;
-    font-size: 15px;
-}
-.fgaLogo>img:nth-child(1){
-    border-radius: 1px solid blue;
-    color: #FFFFFF;
-    
-}
-.fgaLogo>img:nth-child(2){
 
+
+.gimg{
+    width: 6%;
+margin-top:7px;
+margin-left: 35px;
+   
+}
+
+.google{
+    display: inline block;
+    margin-left: -350px;
+    margin-top: 10px;
+    color: black;
+    font-size: 13px;
+}
+/* //amzon */
+.alogo{
+    display: flex;
+  background-color: #FFA100;
+  margin-bottom: 50px
+    
+}
+
+
+.aimg{
+    width: 6%;
+margin-top:7px;
+margin-left: 35px;
+   
+}
+
+.amazon{
+    display: inline block;
+    margin-left: -350px;
+    margin-top: 10px;
+    color: white;
+    font-size: 13px;
+}
+.forgogtP{
+    font-size: 14px;
+    text-decoration: underline;
+}
+.forgogtP:hover{
+    text-decoration-thickness: 3px;
+    cursor: pointer;
 }
