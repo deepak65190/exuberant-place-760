@@ -1,0 +1,40 @@
+.footer{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-left: 60px;
+   
+   justify-content: space-around;
+    
+}
+.back{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.footer>div{
+    width: 25%;
+    height: auto;
+    margin-top: 35px;
+    
+}
+.str>li{
+margin-top: 10px;
+font-size: 14px;
+list-style: none;
+}
+.str>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.subscribe{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.info{
+    font-weight: bolder;
+}
+.payML{
+    width: 40%;
+    height:auto;
+    margin: auto;
+    border: 1px solid red;
+}
