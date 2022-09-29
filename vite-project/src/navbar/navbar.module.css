@@ -1,0 +1,92 @@
+.navbar{
+    width: 100%; 
+    height:  auto;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.freeOrdersShip{
+    width: 100%;
+    height: 37px;
+    margin: auto;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+   
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.freeOrdersShip>p{
+
+    font-size: 13px;
+ 
+    
+}
+.LRC{
+    width: 100%;
+    height: 101px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    display: flex;
+   
+}
+.LRC>div{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+   /* background-color: teal; */
+}
+   .smallLRC{
+    margin: auto;
+    display: flex;
+    
+   }
+   .smallLRC>div:nth-child(1){
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+   }
+   .smallLRC>div:nth-child(2){
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+   
+   }
+   .smallLRC>div:nth-child(3){
+    width: 40%;
+    height: 100%;
+    display: flex;
+   justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+    
+   }
+   .smallLRC>div:nth-child(3)>h1{
+    cursor: pointer;
+    
+   }
+
+
+   .active {
+    color: #121212;
+    text-decoration: underline;
+    padding: 10px;
+    
+  }
+  .active:hover{
+    text-decoration-thickness: 2px;
+  }
+  .default {
+    color: #121212;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .default:hover{
+    text-decoration: underline;
+   
+  }
+  
