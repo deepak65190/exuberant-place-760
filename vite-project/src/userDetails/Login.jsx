@@ -1,6 +1,26 @@
 import React from "react"
 import style from "./login.module.css"
 import { Input, Stack, Button } from '@chakra-ui/react'
+import {NavLink,Link} from "react-router-dom"
+function ToastExample() {
+    return (
+      <button
+        style={{
+          padding: "10px",
+          backgroundColor: "black",
+          color: "white",
+          width: "100px",
+          fontWeight: "500",
+          marginTop: "30px",
+          marginBottom: "150px",
+          marginLeft: "150PX"
+        }}
+      
+      >
+        Sign in
+      </button>
+    );
+  }
 const Login = () => {
     return <>
         <h3 className={style.loginh1}>Login</h3>
@@ -26,15 +46,28 @@ const Login = () => {
             <div >
                 <Stack spacing={3}>
 
-                    <Input border="1px solid black" placeholder='Emil' size='lg' />
-                    <Input placeholder='Password' size='lg' />
+                    <Input type="email" border="1px solid black" placeholder='Email' size='lg' />
+                    <Input type="password" placeholder='Password' size='lg' />
 
                 </Stack>
                 <p className={style.forgogtP}>Forgot your password?</p>
-                <Button colorScheme='black'>Sin in</Button>
+               <NavLink to ="/"><ToastExample/></NavLink>
+               <div
+          style={{
+            marginTop: "-120px",
+            marginBottom: "100px",
+            textDecoration: "underline",
+            marginLeft: "150px" ,
+            fontSize: "13px"
+          }}
+        >
+          <NavLink to="/account/register">
+            <Link>Create Account</Link>
+          </NavLink>
+        </div>
             </div>
 
-           
+          
 
         </div>
 
@@ -43,12 +76,3 @@ const Login = () => {
     </>
 }
 export default Login
-{/* <div className={style.fLogo}>
-
-
-</div>
-<div className={style.fgaLogo}><img src="" alt="" />
-<p>Google</p>
-</div>
-<div className={style.fgaLogo}><img src="" alt="" />
-<p>Amazon</p> */}

@@ -22,7 +22,8 @@ function Navbar(){
     <div className={style.freeOrdersShip}><p>Free Shipping on Orders Over $75 and Free Returns (US ONLY)</p></div>
    <div className={style.LRC}>
     <div className={style.smallLRC}>
-    <div><img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/files/04122019_logo2_90x.png?v=1645644264" alt="" /></div>
+     
+    <div><NavLink to="/"><img src="https://cdn.shopify.com/s/files/1/0627/7388/7215/files/04122019_logo2_90x.png?v=1645644264" alt="" /> </NavLink></div>
     <div>
     {links.map((link) => (
         <NavLink
@@ -32,6 +33,7 @@ function Navbar(){
           }
           key={link.path}
           to={link.path}
+          end
         >
           {link.title}
         </NavLink>
@@ -41,9 +43,9 @@ function Navbar(){
     <div>
   
  
-    <h1> <AiOutlineSearch  size="23px" color="gray"/> </h1>
-    <h1> <HiOutlineUser size="23px" color="gray"/> </h1>
-    <h1> <HiShoppingBag size="23px" color="gray"/> </h1>
+    <h1> <AiOutlineSearch  size="23px"    color="rgba(18, 18, 18, 0.75)"/> </h1>
+    <NavLink to ="/login"><h1> <HiOutlineUser size="23px"    color="rgba(18, 18, 18, 0.75)"/> </h1></NavLink>
+    <h1> <HiShoppingBag size="23px"    color="rgba(18, 18, 18, 0.75)"/> </h1>
     
     </div>
     </div>
