@@ -21,6 +21,7 @@
 .flogo{
     display: flex;
     border: 1px solid #1877F2;
+    cursor: pointer;
     
 }
 .fimg{
@@ -38,6 +39,7 @@ margin-left: 35px;
 }
 .glogo{
     display: flex;
+    cursor: pointer;
     
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
@@ -62,7 +64,9 @@ margin-left: 35px;
 .alogo{
     display: flex;
   background-color: #FFA100;
-  margin-bottom: 50px
+  margin-bottom: 50px ;
+
+  cursor: pointer;
     
 }
 
@@ -88,4 +92,13 @@ margin-left: 35px;
 .forgogtP:hover{
     text-decoration-thickness: 3px;
     cursor: pointer;
+}
+.loginBtn{
+    padding: "10px";
+    background-color: "black";
+    color: "white";
+    width: "100px";
+    font-Weight: "500";
+    margin-top: "30px";
+    margin-bottom: "150px";
 }

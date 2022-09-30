@@ -38,3 +38,39 @@ list-style: none;
     margin: auto;
     border: 1px solid red;
 }
+.wrapper {
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-top: 10px;
+  }
+  
+  .paymentCard {
+    /* border: 1px solid black; */
+    margin-top: auto;
+    width: 500px;
+    height: 70px;
+    margin: auto;
+  }
+  .icon {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(18, 18, 18, 0.75);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+  }
+  .itfp {
+    margin: 10px;
+  }
+  .socialIcons{
+    position: relative;
+    width: 100px;
+    /* top: 10px; */
+    padding-top: 310px;
+    right: 5%;
+  }
