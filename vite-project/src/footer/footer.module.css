@@ -50,8 +50,8 @@ list-style: none;
   .paymentCard {
     /* border: 1px solid black; */
     margin-top: auto;
-    width: 500px;
-    height: 70px;
+    width: 560px;
+    height: 40px;
     margin: auto;
   }
   .icon {
@@ -72,5 +72,5 @@ list-style: none;
     width: 100px;
     /* top: 10px; */
     padding-top: 310px;
-    right: 5%;
+    margin-right: -600px;
   }

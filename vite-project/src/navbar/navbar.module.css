@@ -89,4 +89,21 @@
     text-decoration: underline;
    
   }
-  
+  .top {
+    box-sizing: border-box;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    height: 36.8906px;
+    letter-spacing: 1px;
+    line-height: 16.9px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(18, 18, 18);
+    width: 1458px;
+  }

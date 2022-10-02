@@ -10,7 +10,7 @@ import { FaTiktok } from "react-icons/fa";
 
 function Footer(){
     return <>
-    <h1>hooter</h1>
+  
     <div className={style.back}>
     <div className={style.footer}>
        <div>
@@ -78,7 +78,7 @@ function Footer(){
       <Flex>
         <img
           className={style.paymentCard}
-          src="./1pay.png"
+          src="https://enchanting-faloodeh-23d430.netlify.app/1pay.png"
           alt="image"
         />
       </Flex>

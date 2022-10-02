@@ -1,0 +1,29 @@
+.cart{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.cart>h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cart>div{
+    width: 200px;
+    height: 50px ;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom:50px ;
+}
+.cart>h2{
+    font-size: 25px;
+    font-weight: 500;
+}
