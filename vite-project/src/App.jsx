@@ -11,10 +11,10 @@ return <>
 <div  >
 {/* <h1>first day of project</h1> */}
 {/* <Login/> */}
-{/* <Footer/> */}
-{/* <Navbar/>
- <AllRoutes/> */}
- <Full/>
+
+<Navbar/>
+ <AllRoutes/>
+ <Footer/>
 </div>
 
 </>

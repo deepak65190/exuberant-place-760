@@ -1,7 +1,8 @@
 import React from "react";
+import ImageNew from "./new";
 function ShopAll(){
     return <>
-    hellow ShopAll
+    <ImageNew/>
     </>
 }
 export default ShopAll

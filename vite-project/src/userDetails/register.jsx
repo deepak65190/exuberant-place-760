@@ -1,18 +1,18 @@
-import { Image, Input, Link, useToast } from "@chakra-ui/react";
+import { Image, Input, useToast } from "@chakra-ui/react";
 import React, { useContext, useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
-import { AuthContext } from "../context/AuthContext";
-import style from "./login.module.css";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthContext";
+import styles from "./LoginRegister.module.css";
 
+const Register = () => {
+  const navigate = useNavigate();
 
-const Login = () => {
-  const { users } = useContext(AuthContext);
-  const [present, setPresent] = useState(false);
+  const { details, users, setUsers, handleChange } = useContext(AuthContext);
 
-  const [user, setUser] = useState({
-    email: "",
-    password: "",
-  });
+  const { firstName, lastName, email, password } = details;
+
+  const [userExist, setUserExist] = useState(false);
+
   const toast = useToast();
   function ToastExample() {
     return (
@@ -25,63 +25,54 @@ const Login = () => {
           fontWeight: "500",
           marginTop: "30px",
           marginBottom: "150px",
-          marginLeft:"150px"
         }}
-        onClick={handleSubmit}
+        onClick={submitForm}
       >
-        Sign in
+        Create
       </button>
     );
   }
-
-  const handleSubmit = () => {
-    // e.preventDefault();
-    if (user.email === "") {
-      toast({
-        title: "Please enter credentials.",
-        description: "Input field can't be empty",
-        status: "warning",
-        duration: 3000,
-        isClosable: true,
-      });
-    } else {
+  const submitForm = () => {
+    if (details.password !== "") {
       users.forEach((item) => {
-        if (item.email === user.email && item.password === user.password) {
-          setPresent(true);
+        if (item.email === details.email) {
+          setUserExist(!userExist);
         }
       });
-      
-      if (!present) {
-        
+      if (userExist) {
         toast({
-          title: "Login Success.",
-          description: "You have successfully logged in.",
-          status: "success",
-          duration: 3000,
-          isClosable: true,
-          
-        });
-      } else if (present) {
-        toast({
-          title: "UserId does not exist",
-          description: "This email id is does not exist on the server",
+          title: "User already exist",
+          description: "This email id is already exist on the server",
           status: "warning",
-          duration: 3000,
+          duration: 9000,
           isClosable: true,
         });
+      } else if (!userExist) {
+        setUsers([...users, details]);
+        toast({
+          title: "Account created.",
+          description: "We've created your account for you.",
+          status: "success",
+          duration: 9000,
+          isClosable: true,
+        });
+        navigate("/account/login");
       }
+    } else {
+      toast({
+        title: "Please enter credentials",
+        description: "We cannot create your account with proper credentials",
+        status: "warning",
+        duration: 9000,
+        isClosable: true,
+      });
     }
   };
 
-  const handleChange = (e) => {
-    let { name, value } = e.target;
-    setUser({ ...user, [name]: value });
-  };
   useEffect(() => {
-    setUser(user);
-    console.log(user, "login");
-  }, [user]);
-  const { email, password } = user;
+    console.log(users, "up");
+  }, [users]);
+
   return (
     <div
       style={{
@@ -99,10 +90,9 @@ const Login = () => {
           fontWeight: "400",
           textAlign: "center",
           marginBottom: "50px",
-          marginLeft:"100px"
         }}
       >
-        Login
+        Register
       </div>
       <button
         style={{
@@ -138,7 +128,7 @@ const Login = () => {
         </div>
       </button>
 
-      <div className={style.google}>
+      <div className={styles.google}>
         <button
           style={{
             paddingLeft: "-50px",
@@ -216,8 +206,29 @@ const Login = () => {
         <div style={{ border: "1px solid black", margin: "40px 0px 20px 0px" }}>
           <Input
             border="none"
+            placeholder="First name"
+            borderRadius={0}
+            value={firstName}
+            name="firstName"
+            onChange={handleChange}
+          ></Input>
+        </div>
+        <div style={{ border: "1px solid black", marginBottom: "20px" }}>
+          <Input
+            border="none"
+            value={lastName}
+            name="lastName"
+            placeholder="Last name"
+            borderRadius={0}
+            onChange={handleChange}
+          ></Input>
+        </div>
+        <div style={{ border: "1px solid black", margin: "0px 0px 20px 0px" }}>
+          <Input
             value={email}
             name="email"
+            type="email"
+            border="none"
             placeholder="Email"
             borderRadius={0}
             onChange={handleChange}
@@ -225,45 +236,22 @@ const Login = () => {
         </div>
         <div style={{ border: "1px solid black", marginBottom: "20px" }}>
           <Input
-            border="none"
-            onChange={handleChange}
             value={password}
             name="password"
+            border="none"
             placeholder="Password"
             borderRadius={0}
+            type="password"
+            onChange={handleChange}
           ></Input>
         </div>
-        <div style={{ textAlign: "left" }}>
-          <Link>Forgot your password?</Link>
-        </div>
+
         <div>
-          {/* <button
-            onClick={handleSubmit}
-            style={{
-              padding: "10px",
-              backgroundColor: "black",
-              color: "white",
-              width: "100px",
-              fontWeight: "500",
-              marginTop: "30px",
-            }}
-          >
-            Sign in
-          </button> */}
           <ToastExample />
-        </div>
-        <div
-          style={{
-            marginTop: "-120px",
-            marginBottom: "100px",
-          }}
-        >
-          <NavLink to="/regist">
-            <Link>Create Account</Link>
-          </NavLink>
         </div>
       </div>
     </div>
   );
 };
-export default Login;
+
+export default Register;

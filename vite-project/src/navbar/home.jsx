@@ -4,7 +4,7 @@ import {Box} from "@chakra-ui/react"
 import style from "./home.module.css"
 import data from "../allImages/homeI.json"
 import ChangeOnHover from "../allImages/changeOnHover"
-console.log(data)
+
 function Home(){
     return <>
     <div>

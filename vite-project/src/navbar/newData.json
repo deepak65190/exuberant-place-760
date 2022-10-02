@@ -1,0 +1,114 @@
+[
+    {
+        "id": "9",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/030700001-2__09793_360x.jpg?v=1645110172",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/030700001-2__52214_360x.jpg?v=1645110174",
+        "name": "Rope and Ball Cuff",
+        "price": "25"
+    },
+    {
+        "id": "10",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/030500060-2__26169_360x.jpg?v=1645110173",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/030500060-2__72161_360x.jpg?v=1645110175",
+        "name": "Asymmetrical Pearl Cuff",
+        "price": "22"
+    },
+    {
+        "id": "11",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/D877C94B-1__83702_360x.jpg?v=1645110178",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/D877C94B-4__63029_360x.jpg?v=1645110180",
+        "name": "Brushed Sphere Cuff",
+        "price": "15"
+    },
+    {
+        "id": "12",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/010200053-4__98016_360x.jpg?v=1645110182",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/Stonefallearrings-1__33612_360x.jpg?v=1645110199",
+        "name": "Stone Fall Earrings",
+        "price": "35"
+    },
+    {
+        "id": "13",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/Quadjacket-3__71949_360x.jpg?v=1645110196",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/Quadjacket-1__80748_360x.jpg?v=1645110197",
+        "name": "Quad Jacket",
+        "price": "30"
+    },
+    {
+        "id": "14",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020600050-2__02253_360x.jpg?v=1648824851",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/020600050-3__52178_360x.jpg?v=1648824851",
+        "name": "Maryland Crab Necklace (18K & 24K Gold)",
+        "price": "18"
+    },
+    {
+        "id": "15",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/030700007-3__83567_360x.jpg?v=1645110206",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/crabs_model_1__49622_360x.jpg?v=1645110207",
+        "name": "Brushed Sphere Cuff",
+        "price": "15"
+    },
+    {
+        "id": "16",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/BDE92AF4-3__96913_360x.jpg?v=1645110227",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/BDE92AF4-4__88553_360x.jpg?v=1645110229",
+        "name": "Stone Fall Earrings",
+        "price": "35"
+    },
+    {
+        "id": "17",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/010700004-1__61660_360x.jpg?v=1645110209",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/010700004-3__03193_360x.jpg?v=1645110211",
+        "name": "Snowflake Ear Cuff",
+        "price": "10"
+    },
+    {
+        "id": "18",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/040500034-3__32008_360x.jpg?v=1645110241",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/kathyring_36__60143_360x.jpg?v=1645110243",
+        "name": "Maryland Crab Ring (18K & 24K Gold)",
+        "price": "14"
+    },
+    {
+        "id": "19",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/010400007_2_of_3__06589.jpg?v=1645110271",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/011300001-3__08167_360x.jpg?v=1645110216",
+        "name": "Maryland Crab Earrings (18K & 24K Gold)",
+        "price": "15"
+    },
+    {
+        "id": "20",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/010400007_2_of_3__06589_360x.jpg?v=1645110271",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/earringslauren_88__63651_360x.jpg?v=1645110274",
+        "name": "Fairy Mismatched Studs",
+        "price": "22"
+    },
+    {
+        "id": "21",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/7B66F11C-2__78800_360x.jpg?v=1645110240",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/7B66F11C-3__12897_360x.jpg?v=1645110243",
+        "name": "Adjustable Dip Ring",
+        "price": "14"
+    },
+    {
+        "id": "22",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/7B66F11C-2__78800_360x.jpg?v=1645110240",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/010100028-3__54303_360x.jpg?v=1657302332",
+        "name": "Anchor Earrings",
+        "price": "12"
+    },
+    {
+        "id": "23",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/A787BAC8-4__03500_360x.jpg?v=1645110249",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/A787BAC8-6__29865_360x.jpg?v=1645110251",
+        "name": "Tree Necklace",
+        "price": "15"
+    },
+    {
+        "id": "24",
+        "img1": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/030500016-2__97657_360x.jpg?v=1645110255",
+        "img2": "https://cdn.shopify.com/s/files/1/0627/7388/7215/products/0305000016-2__70099_360x.jpg?v=1645110257",
+        "name": "Asymmetrical Silver Cuff",
+        "price": "25"
+    }
+]
