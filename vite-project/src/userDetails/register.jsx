@@ -1,8 +1,8 @@
 import { Image, Input, useToast } from "@chakra-ui/react";
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../../Context/AuthContext";
-import styles from "./LoginRegister.module.css";
+import { AuthContext } from "../context/AuthContext";
+
 
 const Register = () => {
   const navigate = useNavigate();
