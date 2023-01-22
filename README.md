@@ -15,4 +15,4 @@ Up |Cart etc.
 <div>ls</div>
 <div>vite-project</div>
 <div>npm run dev</div>
-![2l](https://user-images.githubusercontent.com/101567061/213900285-483bfc4d-6b81-486e-927e-48c614718b9a.png)
+<img src ="https://user-images.githubusercontent.com/101567061/213900285-483bfc4d-6b81-486e-927e-48c614718b9a.png"/>
