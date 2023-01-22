@@ -8,8 +8,11 @@ Baltimore, MD. Founded by two siblings.</div>
 • Navbar | Footer | Home Page | Sign-In .| Sign-
 Up |Cart etc.
 <div>Tech Stack:</div>
-
 • REACT | ROUTER | CSS | CHAKRA-UI
-
-
+<div> # How to use</div>
+<div>ls</div>
+<div> cd exuerant-place-760</div>
+<div>ls</div>
+<div>vite-project</div>
+<div>npm run dev</div>
 ![2l](https://user-images.githubusercontent.com/101567061/213900285-483bfc4d-6b81-486e-927e-48c614718b9a.png)
