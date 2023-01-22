@@ -1,16 +1,14 @@
 # exuberant-place-760
-Clone of  Lovoda"https://lovoda.com/"
+#Clone of  Lovoda"https://lovoda.com/"
 <div>An individual project completed in 5 days</div>
 
-
-LOVODA is a women's fashion brand
-established in the charming city of
-Baltimore, MD. Founded by two siblings.
-Features :
+<div>LOVODA is a women's fashion brand established in the charming city of
+Baltimore, MD. Founded by two siblings.</div>
+<div>Features :</div>
 • Navbar | Footer | Home Page | Sign-In .| Sign-
 Up |Cart etc.
+<div>Tech Stack:</div>
 
-Tech Stack:
 • REACT | ROUTER | CSS | CHAKRA-UI
 
 
