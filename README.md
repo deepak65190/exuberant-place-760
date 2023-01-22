@@ -10,3 +10,6 @@ Up |Cart etc.
 
 Tech Stack:
 • REACT | ROUTER | CSS | CHAKRA-UI
+
+![image](https://user-images.githubusercontent.com/101567061/213900236-c5c04c23-d07e-4790-89b6-d4f75eb05666.png)
+
